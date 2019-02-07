@@ -5,6 +5,7 @@ body {
     padding: 0;
     font-family: 'Montserrat', sans-serif;
     background-image: url("texture.jpg");
+    background-attachment: fixed;
     user-select: none;
 }
 
