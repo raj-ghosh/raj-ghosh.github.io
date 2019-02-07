@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("../assets/texture.jpg");
+	user-select: none;
+}
+
+/* Left panel styles starts from here */
+
+.left-panel {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: white;
+    height: auto;
+    width: 350px;
+    border-right-style: solid;
+    border-color: dodgerblue;
+    border-width: 5px;
+}
+
+.left-container {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.profile-img img{
+    margin-top: 30px;
+    margin-left: 85px;
+    margin-right: 85px;
+    transition: all 250ms;
+}
+
+.profile-img img {
+    
+}
+
+.social-icons {
+    margin-top: 10px;
+    margin-left: 113px;
+}
+
+.social-icons img {
+    padding-right: 5px;
+    transition: all 250ms;
+}
+
+.insta:hover {
+    transform: scale(0.8);
+}
+
+.fb:hover {
+    transform: scale(0.8);
+}
+
+.twitter:hover {
+    transform: scale(0.8);
+}
+
+.nav-links {
+    margin-top: 10px;
+    margin-left: 80px;
+}
+
+.nav-links a {
+    text-align: center;
+    padding: 3px;
+    color: dodgerblue;
+    text-decoration: none;
+    border-width: 1px;
+    font-weight: 500;
+    transition: all 250ms;
+}
+
+.nav-links a:hover {
+    border-bottom-style: solid;
+    border-width: 3px;
+    color: dodgerblue;
+}
+
+.about-section {
+    text-align: justify;
+}
+
+.about-section h3 {
+    color: #171717;
+    font-weight: 500;
+    text-align: center;
+}
+
+.about-section p {
+    font-weight: 100px;
+    font-size: 13px;
+}
+
+/* Main Section Style Starts from here */
+
+.main-section {
+    margin-left: 350px;
+    height: 100%;
+}
+
+.main-container {
+    padding: 5px;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.left {
+    float: left;
+    width: 55%;
+}
+
+.right {
+    float: left;
+    width: 45%;
+}
+
+.contact {
+    border-radius: 10px;
+    background-color: white;
+    height: auto;
+    padding: 5px;
+    margin: 10px;
+}
+
+.contact img {
+    float: left;
+    margin: 5px;
+}
+
+.contact h4 {
+    margin-left: 7px;
+    color: dodgerblue;
+}
+
+.contact p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+.summary {
+    border-radius: 10px;
+    background-color: white;
+    height: auto;
+    padding: 5px;
+    margin: 10px;
+}
+
+.summary img {
+    float: left;
+    margin: 5px;
+}
+
+.summary h4 {
+    margin-top: 5px;
+    color: dodgerblue;
+}
+
+.summary p {
+    font-size: 12px;
+    text-align: justify;
+}
+
+.languages {
+    border-radius: 10px;
+    background-color: white;
+    height: auto;
+    padding: 5px;
+    margin: 10px;
+}
+
+.languages img {
+    float: left; 
+    margin: 5px;
+}
+
+.languages h4 {
+    margin-top: 5px;
+    color: dodgerblue;
+}
+
+.languages p {
+    font-size: 13px;
+    margin: 15px;
+    margin-left: -1px;
+    margin-bottom: 10px;
+}
+
+.progress {
+    width: 100%;
+    background-color: lightgray;
+    border-radius: 0px;
+}
+
+.my-progress-for-hindi {
+    border-radius: 0px;
+    height: 5px;
+    text-align: center;
+    font-size: 9px;
+    width: 100%;
+    background-color: dodgerblue;
+    color: transparent;
+}
+
+.my-progress-for-english {
+    border-radius: 0px;
+    height: 5px;
+    text-align: center;
+    font-size: 9px;
+    width: 75%;
+    background-color: dodgerblue;
+    color: transparent;
+}
+
+.employment {
+    border-radius: 10px;
+    background-color: white;
+    height: auto;
+    padding: 5px;
+    margin: 10px;
+}
+
+.employment img {
+    float: left;
+    margin: 5px;
+}
+
+.employment h4 {
+   margin-top: 8px;
+    color: dodgerblue;
+}
+
+.employment p {
+    font-size: 14px;
+    text-align: justify;
+    font-weight: 600;
+}
+
+.skills {
+    border-radius: 10px;
+    background-color: white;
+    height: auto;
+    padding: 5px;
+    margin: 10px;
+}
+
+.skills img {
+    float: left;
+    margin: 5px;
+}
+
+.skills h4 {
+    margin-top: 8px;
+    color: dodgerblue;
+}
+
+.skills p {
+    font-size: 13px;
+    margin: 15px;
+    margin-left: -1px;
+    margin-bottom: 10px;
+}
+
+.my-progress-for-html {
+    border-radius: 0px;
+    height: 5px;
+    text-align: center;
+    font-size: 9px;
+    width: 90%;
+    background-color: dodgerblue;
+    color: transparent;
+}
+
+.my-progress-for-css {
+    border-radius: 0px;
+    height: 5px;
+    text-align: center;
+    font-size: 9px;
+    width: 90%;
+    background-color: dodgerblue;
+    color: transparent;
+}
+
+.my-progress-for-js {
+    border-radius: 0px;
+    height: 5px;
+    text-align: center;
+    font-size: 9px;
+    width: 55%;
+    background-color: dodgerblue;
+    color: transparent;
+}
+
+.my-progress-for-xd {
+    border-radius: 0px;
+    height: 5px;
+    text-align: center;
+    font-size: 9px;
+    width: 75%;
+    background-color: dodgerblue;
+    color: transparent;
+}
+
+.my-progress-for-photoshop {
+    border-radius: 0px;
+    height: 5px;
+    text-align: center;
+    font-size: 9px;
+    width: 80%;
+    background-color: dodgerblue;
+    color: transparent;
+}
+
+.my-progress-for-illustrator {
+    border-radius: 0px;
+    height: 5px;
+    text-align: center;
+    font-size: 9px;
+    width: 75%;
+    background-color: dodgerblue;
+    color: transparent;
+}
+
+.education {
+    border-radius: 10px;
+    background-color: white;
+    height: auto;
+    padding: 5px;
+    margin: 10px;
+}
+
+.education img {
+    float: left;
+    margin: 5px;
+}
+
+.education h4 {
+    margin-top: 8px;
+    color: dodgerblue;
+}
+
+.education p {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.download-button {
+    max-width: 960px;
+    margin: 0 auto;
+    transform: translateX(40%);
+    
+}
+
+.download-button button{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    border-style: solid;
+    border-color: dodgerblue;
+    background-color: floralwhite;
+    padding: 15px;
+    color: dodgerblue;
+    transition: all 250ms;
+}
+
+.download-button a button:hover {
+    background-color: dodgerblue;
+    color: white;
+}
