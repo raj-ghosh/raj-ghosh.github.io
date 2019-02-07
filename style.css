@@ -63,7 +63,7 @@ body {
 
 .nav-links {
     margin-top: 10px;
-    margin-left: 80px;
+    margin-left: 65px;
 }
 
 .nav-links a {
@@ -242,6 +242,10 @@ body {
     font-weight: 600;
 }
 
+.employment li {
+    font-size: 12px;
+}
+
 .skills {
     border-radius: 10px;
     background-color: white;
@@ -350,25 +354,27 @@ body {
     font-weight: 600;
 }
 
-.download-button {
-    max-width: 960px;
-    margin: 0 auto;
-    transform: translateX(40%);
-    
-}
-
-.download-button button{
+.button button {
+    align-content: center;
+    align-items: center;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
+    font-weight: 500;
+    padding: 10px;
     border-style: solid;
     border-color: dodgerblue;
-    background-color: floralwhite;
-    padding: 15px;
-    color: dodgerblue;
+    background-color: transparent;
+    border-width: 2px;
     transition: all 250ms;
+    min-width: 150px;
+    width: 50%;
+    height: 100%;
+    margin-top: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
-.download-button a button:hover {
+.button button:hover {
     background-color: dodgerblue;
     color: white;
+    transform: scale(0.95);
 }
