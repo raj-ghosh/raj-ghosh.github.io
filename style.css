@@ -88,13 +88,13 @@ body {
 
 .about-section h3 {
     color: #171717;
-    font-weight: 500;
+    font-weight: 600;
     text-align: center;
 }
 
 .about-section p {
     font-weight: 100px;
-    font-size: 13px;
+    font-size: 11px;
 }
 
 /* Main Section Style Starts from here */
