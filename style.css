@@ -65,9 +65,11 @@ body {
 .nav-links {
     margin-top: 10px;
     margin-left: 65px;
+    text-align: center;
 }
 
 .nav-links a {
+    font-size: 14px;
     text-align: center;
     padding: 3px;
     color: dodgerblue;
