@@ -100,6 +100,18 @@ body {
     font-size: 11px;
 }
 
+.author {
+    text-align: center;
+    color: dodgerblue;
+    font-size: 10px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.author sup {
+    font-size: 12px;
+}
+
 /* Main Section Style Starts from here */
 
 .main-section {
