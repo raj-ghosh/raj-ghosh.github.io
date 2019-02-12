@@ -39,13 +39,9 @@ body {
 
 .social-icons {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.social-icons {
     margin-top: 10px;
     margin-left: 110px;
+    margin-right: auto;
 }
 
 .social-icons img {
