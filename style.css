@@ -31,18 +31,21 @@ body {
 
 .profile-img img{
     margin-top: 30px;
-    margin-left: 85px;
-    margin-right: 85px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     transition: all 250ms;
 }
 
-.profile-img img {
-    
+.social-icons {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .social-icons {
     margin-top: 10px;
-    margin-left: 113px;
+    margin-left: 110px;
 }
 
 .social-icons img {
@@ -50,21 +53,26 @@ body {
     transition: all 250ms;
 }
 
-.insta:hover {
-    transform: scale(0.8);
+.linkedin:hover {
+    transform: scale(1.1);
+    filter: brightness(80%);
 }
 
 .fb:hover {
-    transform: scale(0.8);
+    transform: scale(1.1);
+    filter: brightness(80%);
 }
 
 .twitter:hover {
-    transform: scale(0.8);
+    transform: scale(1.1);
+    filter: brightness(80%);
 }
 
 .nav-links {
+    display: block;
     margin-top: 10px;
-    margin-left: -20px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
 }
 
@@ -75,7 +83,7 @@ body {
     color: dodgerblue;
     text-decoration: none;
     border-width: 1px;
-    font-weight: 500;
+    font-weight: 600;
     transition: all 250ms;
 }
 
