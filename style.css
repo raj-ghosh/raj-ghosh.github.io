@@ -436,9 +436,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#34d0f7', end
     font-weight: 600;
     padding: 10px;
     background-image: url("button-1.svg");
-    transition: all 250ms;
+    transition: background, filter 250ms;
     height: 100%;
     margin-top: 10px;
+    line-height: 0px;
+    height: 40px;
     margin-left: auto;
     margin-right: auto;
     display: block;
