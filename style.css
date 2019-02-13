@@ -8,7 +8,9 @@ body {
     background-attachment: fixed;
     user-select: none;
 }
-
+a {
+    text-decoration: none;
+}
 /* Left panel styles starts from here */
 
 .left-panel {
@@ -374,26 +376,25 @@ body {
 }
 
 .button button {
-    align-content: center;
-    align-items: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     padding: 10px;
-    border-style: solid;
-    border-color: dodgerblue;
-    background-color: transparent;
-    border-width: 2px;
+    background-image: url("button-1.svg");
     transition: all 250ms;
-    min-width: 150px;
-    width: 50%;
     height: 100%;
     margin-top: 10px;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-decoration: none;
+    border-style: none;
 }
 
 .button button:hover {
-    background-color: dodgerblue;
     color: white;
-    transform: scale(0.95);
+    filter: brightness(75%);
+}
+
+.button button:active {
+    background-image: url("button1click.svg");
 }
