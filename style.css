@@ -4,15 +4,14 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
-    background: rgba(36,0,237,1);
-background: -moz-linear-gradient(left, rgba(36,0,237,1) 0%, rgba(47,9,238,1) 18%, rgba(74,33,242,1) 63%, rgba(97,52,245,1) 100%);
-background: -webkit-gradient(left top, right top, color-stop(0%, rgba(36,0,237,1)), color-stop(18%, rgba(47,9,238,1)), color-stop(63%, rgba(74,33,242,1)), color-stop(100%, rgba(97,52,245,1)));
-background: -webkit-linear-gradient(left, rgba(36,0,237,1) 0%, rgba(47,9,238,1) 18%, rgba(74,33,242,1) 63%, rgba(97,52,245,1) 100%);
-background: -o-linear-gradient(left, rgba(36,0,237,1) 0%, rgba(47,9,238,1) 18%, rgba(74,33,242,1) 63%, rgba(97,52,245,1) 100%);
-background: -ms-linear-gradient(left, rgba(36,0,237,1) 0%, rgba(47,9,238,1) 18%, rgba(74,33,242,1) 63%, rgba(97,52,245,1) 100%);
-background: linear-gradient(to right, rgba(36,0,237,1) 0%, rgba(47,9,238,1) 18%, rgba(74,33,242,1) 63%, rgba(97,52,245,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2400ed', endColorstr='#6134f5', GradientType=1 );
-    background-attachment: fixed;
+    background: rgba(33,27,66,1);
+background: -moz-linear-gradient(left, rgba(33,27,66,1) 0%, rgba(34,28,67,1) 18%, rgba(37,30,69,1) 63%, rgba(40,32,71,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(33,27,66,1)), color-stop(18%, rgba(34,28,67,1)), color-stop(63%, rgba(37,30,69,1)), color-stop(100%, rgba(40,32,71,1)));
+background: -webkit-linear-gradient(left, rgba(33,27,66,1) 0%, rgba(34,28,67,1) 18%, rgba(37,30,69,1) 63%, rgba(40,32,71,1) 100%);
+background: -o-linear-gradient(left, rgba(33,27,66,1) 0%, rgba(34,28,67,1) 18%, rgba(37,30,69,1) 63%, rgba(40,32,71,1) 100%);
+background: -ms-linear-gradient(left, rgba(33,27,66,1) 0%, rgba(34,28,67,1) 18%, rgba(37,30,69,1) 63%, rgba(40,32,71,1) 100%);
+background: linear-gradient(to right, rgba(33,27,66,1) 0%, rgba(34,28,67,1) 18%, rgba(37,30,69,1) 63%, rgba(40,32,71,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#211b42', endColorstr='#282047', GradientType=1 );
     user-select: none;
 }
 a {
