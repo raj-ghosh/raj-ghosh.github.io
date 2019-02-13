@@ -390,6 +390,7 @@ a {
     border-style: none;
     color: white;
     text-shadow: 0px 2px 0px #1c1c1c;
+    background-size: cover;
 }
 
 .button button:hover {
@@ -397,8 +398,10 @@ a {
     font-weight: 600;
     text-shadow: 0px 2px 0px #1c1c1c;
     filter: brightness(75%);
+    background-size: cover;
 }
 
 .button button:active {
     background-image: url("button1click.svg");
+    background-size: cover;
 }
