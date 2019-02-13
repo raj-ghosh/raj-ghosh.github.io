@@ -377,7 +377,7 @@ a {
 
 .button button {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     padding: 10px;
     background-image: url("button-1.svg");
     transition: all 250ms;
@@ -388,10 +388,14 @@ a {
     display: block;
     text-decoration: none;
     border-style: none;
+    color: white;
+    text-shadow: 0px 2px 0px #1c1c1c;
 }
 
 .button button:hover {
     color: white;
+    font-weight: 600;
+    text-shadow: 0px 2px 0px #1c1c1c;
     filter: brightness(75%);
 }
 
