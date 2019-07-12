@@ -345,7 +345,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#34d0f7', end
     height: 5px;
     text-align: center;
     font-size: 9px;
-    width: 55%;
+    width: 15%;
     background: rgba(52,208,247,1);
 background: -moz-linear-gradient(left, rgba(52,208,247,1) 0%, rgba(120,255,233,1) 100%);
 background: -webkit-gradient(left top, right top, color-stop(0%, rgba(52,208,247,1)), color-stop(100%, rgba(120,255,233,1)));
