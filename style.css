@@ -216,11 +216,11 @@ a {
 .progress {
     width: 100%;
     background-color: lightgray;
-    border-radius: 0px;
+    border-radius: 50px;
 }
 
 .my-progress-for-hindi {
-    border-radius: 0px;
+    border-radius: 50px;
     height: 5px;
     text-align: center;
     font-size: 9px;
@@ -236,7 +236,7 @@ a {
 }
 
 .my-progress-for-english {
-    border-radius: 0px;
+    border-radius: 50px;
     height: 5px;
     text-align: center;
     font-size: 9px;
@@ -305,7 +305,7 @@ a {
 }
 
 .my-progress-for-html {
-    border-radius: 0px;
+    border-radius: 50px;
     height: 5px;
     text-align: center;
     font-size: 9px;
@@ -321,7 +321,7 @@ a {
 }
 
 .my-progress-for-css {
-    border-radius: 0px;
+    border-radius: 50px;
     height: 5px;
     text-align: center;
     font-size: 9px;
@@ -337,7 +337,7 @@ a {
 }
 
 .my-progress-for-js {
-    border-radius: 0px;
+    border-radius: 50px;
     height: 5px;
     text-align: center;
     font-size: 9px;
@@ -353,7 +353,7 @@ a {
 }
 
 .my-progress-for-xd {
-    border-radius: 0px;
+    border-radius: 50px;
     height: 5px;
     text-align: center;
     font-size: 9px;
@@ -369,7 +369,7 @@ a {
 }
 
 .my-progress-for-photoshop {
-    border-radius: 0px;
+    border-radius: 50px;
     height: 5px;
     text-align: center;
     font-size: 9px;
@@ -385,7 +385,7 @@ a {
 }
 
 .my-progress-for-illustrator {
-    border-radius: 0px;
+    border-radius: 50px;
     height: 5px;
     text-align: center;
     font-size: 9px;
@@ -675,11 +675,11 @@ a {
     .progress {
         width: 100%;
         background-color: lightgray;
-        border-radius: 0px;
+        border-radius: 50px;
     }
 
     .my-progress-for-hindi {
-        border-radius: 0px;
+        border-radius: 50px;
         height: 5px;
         text-align: center;
         font-size: 9px;
@@ -695,7 +695,7 @@ a {
     }
 
     .my-progress-for-english {
-        border-radius: 0px;
+        border-radius: 50px;
         height: 5px;
         text-align: center;
         font-size: 9px;
