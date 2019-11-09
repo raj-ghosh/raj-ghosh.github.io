@@ -225,15 +225,14 @@ a {
     text-align: center;
     font-size: 9px;
     width: 100%;
-    background: rgba(52,208,247,1);
-background: -moz-linear-gradient(left, rgba(52,208,247,1) 0%, rgba(120,255,233,1) 100%);
-background: -webkit-gradient(left top, right top, color-stop(0%, rgba(52,208,247,1)), color-stop(100%, rgba(120,255,233,1)));
-background: -webkit-linear-gradient(left, rgba(52,208,247,1) 0%, rgba(120,255,233,1) 100%);
-background: -o-linear-gradient(left, rgba(52,208,247,1) 0%, rgba(120,255,233,1) 100%);
-background: -ms-linear-gradient(left, rgba(52,208,247,1) 0%, rgba(120,255,233,1) 100%);
-background: linear-gradient(to right, rgba(52,208,247,1) 0%, rgba(120,255,233,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#34d0f7', endColorstr='#78ffe9', GradientType=1 );
+   background-color: dodgerblue;
     color: transparent;
+    animation-name: hindi_progress;
+        animation-delay: 0.5s;
+        animation-direction: normal;
+        animation-duration: 1.5s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-out;
 }
 
 .my-progress-for-english {
@@ -242,15 +241,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#34d0f7', end
     text-align: center;
     font-size: 9px;
     width: 75%;
-    background: rgba(52,208,247,1);
-background: -moz-linear-gradient(left, rgba(52,208,247,1) 0%, rgba(120,255,233,1) 100%);
-background: -webkit-gradient(left top, right top, color-stop(0%, rgba(52,208,247,1)), color-stop(100%, rgba(120,255,233,1)));
-background: -webkit-linear-gradient(left, rgba(52,208,247,1) 0%, rgba(120,255,233,1) 100%);
-background: -o-linear-gradient(left, rgba(52,208,247,1) 0%, rgba(120,255,233,1) 100%);
-background: -ms-linear-gradient(left, rgba(52,208,247,1) 0%, rgba(120,255,233,1) 100%);
-background: linear-gradient(to right, rgba(52,208,247,1) 0%, rgba(120,255,233,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#34d0f7', endColorstr='#78ffe9', GradientType=1 );
+    background-color: dodgerblue;
     color: transparent;
+    animation-name: english_progress;
+        animation-delay: 0.5s;
+        animation-direction: normal;
+        animation-duration: 1.5s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-out;
 }
 
 .employment {
@@ -312,15 +310,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#34d0f7', end
     text-align: center;
     font-size: 9px;
     width: 90%;
-    background: rgba(52,208,247,1);
-background: -moz-linear-gradient(left, rgba(52,208,247,1) 0%, rgba(120,255,233,1) 100%);
-background: -webkit-gradient(left top, right top, color-stop(0%, rgba(52,208,247,1)), color-stop(100%, rgba(120,255,233,1)));
-background: -webkit-linear-gradient(left, rgba(52,208,247,1) 0%, rgba(120,255,233,1) 100%);
-background: -o-linear-gradient(left, rgba(52,208,247,1) 0%, rgba(120,255,233,1) 100%);
-background: -ms-linear-gradient(left, rgba(52,208,247,1) 0%, rgba(120,255,233,1) 100%);
-background: linear-gradient(to right, rgba(52,208,247,1) 0%, rgba(120,255,233,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#34d0f7', endColorstr='#78ffe9', GradientType=1 );
+    background-color: dodgerblue;
     color: transparent;
+    animation-name: html_progress;
+        animation-delay: 0.5s;
+        animation-direction: normal;
+        animation-duration: 1.5s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-out;
 }
 
 .my-progress-for-css {
@@ -329,15 +326,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#34d0f7', end
     text-align: center;
     font-size: 9px;
     width: 90%;
-    background: rgba(52,208,247,1);
-background: -moz-linear-gradient(left, rgba(52,208,247,1) 0%, rgba(120,255,233,1) 100%);
-background: -webkit-gradient(left top, right top, color-stop(0%, rgba(52,208,247,1)), color-stop(100%, rgba(120,255,233,1)));
-background: -webkit-linear-gradient(left, rgba(52,208,247,1) 0%, rgba(120,255,233,1) 100%);
-background: -o-linear-gradient(left, rgba(52,208,247,1) 0%, rgba(120,255,233,1) 100%);
-background: -ms-linear-gradient(left, rgba(52,208,247,1) 0%, rgba(120,255,233,1) 100%);
-background: linear-gradient(to right, rgba(52,208,247,1) 0%, rgba(120,255,233,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#34d0f7', endColorstr='#78ffe9', GradientType=1 );
+    background-color: dodgerblue;
     color: transparent;
+    animation-name: css_progress;
+        animation-delay: 0.5s;
+        animation-direction: normal;
+        animation-duration: 1.5s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-out;
 }
 
 .my-progress-for-js {
@@ -346,15 +342,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#34d0f7', end
     text-align: center;
     font-size: 9px;
     width: 15%;
-    background: rgba(52,208,247,1);
-background: -moz-linear-gradient(left, rgba(52,208,247,1) 0%, rgba(120,255,233,1) 100%);
-background: -webkit-gradient(left top, right top, color-stop(0%, rgba(52,208,247,1)), color-stop(100%, rgba(120,255,233,1)));
-background: -webkit-linear-gradient(left, rgba(52,208,247,1) 0%, rgba(120,255,233,1) 100%);
-background: -o-linear-gradient(left, rgba(52,208,247,1) 0%, rgba(120,255,233,1) 100%);
-background: -ms-linear-gradient(left, rgba(52,208,247,1) 0%, rgba(120,255,233,1) 100%);
-background: linear-gradient(to right, rgba(52,208,247,1) 0%, rgba(120,255,233,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#34d0f7', endColorstr='#78ffe9', GradientType=1 );
+    background-color: dodgerblue;
     color: transparent;
+    animation-name: js_progress;
+        animation-delay: 0.5s;
+        animation-direction: normal;
+        animation-duration: 1.5s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-out;
 }
 
 .my-progress-for-xd {
@@ -363,15 +358,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#34d0f7', end
     text-align: center;
     font-size: 9px;
     width: 75%;
-    background: rgba(52,208,247,1);
-background: -moz-linear-gradient(left, rgba(52,208,247,1) 0%, rgba(120,255,233,1) 100%);
-background: -webkit-gradient(left top, right top, color-stop(0%, rgba(52,208,247,1)), color-stop(100%, rgba(120,255,233,1)));
-background: -webkit-linear-gradient(left, rgba(52,208,247,1) 0%, rgba(120,255,233,1) 100%);
-background: -o-linear-gradient(left, rgba(52,208,247,1) 0%, rgba(120,255,233,1) 100%);
-background: -ms-linear-gradient(left, rgba(52,208,247,1) 0%, rgba(120,255,233,1) 100%);
-background: linear-gradient(to right, rgba(52,208,247,1) 0%, rgba(120,255,233,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#34d0f7', endColorstr='#78ffe9', GradientType=1 );
+    background-color: dodgerblue;
     color: transparent;
+    animation-name: axd_progress;
+    animation-delay: 0.5s;
+    animation-direction: normal;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
 }
 
 .my-progress-for-photoshop {
@@ -380,15 +374,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#34d0f7', end
     text-align: center;
     font-size: 9px;
     width: 80%;
-    background: rgba(52,208,247,1);
-background: -moz-linear-gradient(left, rgba(52,208,247,1) 0%, rgba(120,255,233,1) 100%);
-background: -webkit-gradient(left top, right top, color-stop(0%, rgba(52,208,247,1)), color-stop(100%, rgba(120,255,233,1)));
-background: -webkit-linear-gradient(left, rgba(52,208,247,1) 0%, rgba(120,255,233,1) 100%);
-background: -o-linear-gradient(left, rgba(52,208,247,1) 0%, rgba(120,255,233,1) 100%);
-background: -ms-linear-gradient(left, rgba(52,208,247,1) 0%, rgba(120,255,233,1) 100%);
-background: linear-gradient(to right, rgba(52,208,247,1) 0%, rgba(120,255,233,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#34d0f7', endColorstr='#78ffe9', GradientType=1 );
+    background-color: dodgerblue;
     color: transparent;
+    animation-name: aps_progress;
+    animation-delay: 0.5s;
+    animation-direction: normal;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
 }
 
 .my-progress-for-illustrator {
@@ -397,15 +390,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#34d0f7', end
     text-align: center;
     font-size: 9px;
     width: 75%;
-    background: rgba(52,208,247,1);
-background: -moz-linear-gradient(left, rgba(52,208,247,1) 0%, rgba(120,255,233,1) 100%);
-background: -webkit-gradient(left top, right top, color-stop(0%, rgba(52,208,247,1)), color-stop(100%, rgba(120,255,233,1)));
-background: -webkit-linear-gradient(left, rgba(52,208,247,1) 0%, rgba(120,255,233,1) 100%);
-background: -o-linear-gradient(left, rgba(52,208,247,1) 0%, rgba(120,255,233,1) 100%);
-background: -ms-linear-gradient(left, rgba(52,208,247,1) 0%, rgba(120,255,233,1) 100%);
-background: linear-gradient(to right, rgba(52,208,247,1) 0%, rgba(120,255,233,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#34d0f7', endColorstr='#78ffe9', GradientType=1 );
+    background-color: dodgerblue;
     color: transparent;
+    animation-name: ai_progress;
+        animation-delay: 0.5s;
+        animation-direction: normal;
+        animation-duration: 1.5s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-out;
 }
 
 .education {
@@ -692,15 +684,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#34d0f7', end
         text-align: center;
         font-size: 9px;
         width: 100%;
-        background: rgba(52,208,247,1);
-    background: -moz-linear-gradient(left, rgba(52,208,247,1) 0%, rgba(120,255,233,1) 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(52,208,247,1)), color-stop(100%, rgba(120,255,233,1)));
-    background: -webkit-linear-gradient(left, rgba(52,208,247,1) 0%, rgba(120,255,233,1) 100%);
-    background: -o-linear-gradient(left, rgba(52,208,247,1) 0%, rgba(120,255,233,1) 100%);
-    background: -ms-linear-gradient(left, rgba(52,208,247,1) 0%, rgba(120,255,233,1) 100%);
-    background: linear-gradient(to right, rgba(52,208,247,1) 0%, rgba(120,255,233,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#34d0f7', endColorstr='#78ffe9', GradientType=1 );
+        background-color: dodgerblue;
         color: transparent;
+        animation-name: hindi_progress;
+        animation-delay: 0.5s;
+        animation-direction: normal;
+        animation-duration: 1.5s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-out;
     }
 
     .my-progress-for-english {
@@ -709,15 +700,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#34d0f7', end
         text-align: center;
         font-size: 9px;
         width: 75%;
-        background: rgba(52,208,247,1);
-    background: -moz-linear-gradient(left, rgba(52,208,247,1) 0%, rgba(120,255,233,1) 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(52,208,247,1)), color-stop(100%, rgba(120,255,233,1)));
-    background: -webkit-linear-gradient(left, rgba(52,208,247,1) 0%, rgba(120,255,233,1) 100%);
-    background: -o-linear-gradient(left, rgba(52,208,247,1) 0%, rgba(120,255,233,1) 100%);
-    background: -ms-linear-gradient(left, rgba(52,208,247,1) 0%, rgba(120,255,233,1) 100%);
-    background: linear-gradient(to right, rgba(52,208,247,1) 0%, rgba(120,255,233,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#34d0f7', endColorstr='#78ffe9', GradientType=1 );
+        background-color: dodgerblue;
         color: transparent;
+        animation-name: english_progress;
+        animation-delay: 0.5s;
+        animation-direction: normal;
+        animation-duration: 1.5s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-out;
     }
     
     .skills {
@@ -787,4 +777,70 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#34d0f7', end
     }
 
 
+}
+
+/*Animation for skills bars and progress*/
+
+@keyframes english_progress {
+    from{
+        width: 0%;
+    }to{
+        width: 75%;
+    }
+}
+
+@keyframes hindi_progress {
+    from{
+        width: 0%;
+    }to{
+        width: 100%;
+    }
+}
+
+@keyframes html_progress {
+    from{
+        width: 0%;
+    }to{
+        width: 90%;
+    }
+}
+
+@keyframes css_progress {
+    from{
+        width: 0%;
+    }to{
+        width: 90%;
+    }
+}
+
+@keyframes js_progress {
+    from{
+        width: 0%;
+    }to{
+        width: 15%;
+    }
+}
+
+@keyframes axd_progress {
+    from{
+        width: 0%;
+    }to{
+        width: 75%;
+    }
+}
+
+@keyframes aps_progress {
+    from{
+        width: 0%;
+    }to{
+        width: 80%;
+    }
+}
+
+@keyframes ai_progress {
+    from{
+        width: 0%;
+    }to{
+        width: 75%;
+    }
 }
