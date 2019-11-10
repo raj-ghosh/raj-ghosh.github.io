@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    background-image: url("texture.jpg");
+    background-attachment: fixed;
+    user-select: none;
+    height: 5000px;
+}
+.navbar {
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: white;
+    height: 100px;
+    width: 100vw;
+    border-bottom-style: solid;
+    border-color: dodgerblue;
+    border-width: 5px;
+}
+
+.navbar_container {
+    margin: 0 auto;
+    max-width: 375px;
+    background-color: transparent;
+    height: 100px;
+    display: flexbox;
+}
+
+.nav-items {
+    position: relative;
+    height: 100px;
+    /* background-color: white; */
+    margin: 0 auto;
+    list-style: none;
+}
+
+.nav-items li {
+    margin-top: 10px;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 10px;
+
+}
+
+.links {
+    float: left;
+    position: relative;
+    margin: 10px;
+    padding: 15px;
+    line-height: 0px;
+    text-decoration: none;
+    font-weight: 500;
+    color: dodgerblue;
+    transition: all 150ms ease;
+}
+
+.links:hover {
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 5px;
+    transform: scale(0.9);
+    /* border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px; */
+}
+
+.profile_img {
+    transition: all 150ms ease;
+}
+
+.profile_img:hover {
+    transform: scale(1.2);
+}
+
+/* Main-Section Starts from here */
+/* Main Section Ends from here */
