@@ -61,7 +61,7 @@ body {
     background-color: dodgerblue;
     color: white;
     border-radius: 5px;
-    transform: scale(0.9);
+    transform: scale(0.8);
     /* border-top-right-radius: 25px;
     border-bottom-left-radius: 25px; */
 }
@@ -71,8 +71,16 @@ body {
 }
 
 .profile_img:hover {
-    transform: scale(1.2);
+    transform: scale(1);
 }
 
 /* Main-Section Starts from here */
+.main {
+    margin-top: 105px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 90%;
+}
 /* Main Section Ends from here */
