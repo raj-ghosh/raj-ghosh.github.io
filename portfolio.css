@@ -7,7 +7,7 @@ body {
     background-image: url("texture.jpg");
     background-attachment: fixed;
     user-select: none;
-    height: 5000px;
+    /* height: 5000px; */
 }
 .navbar {
     top: 0;
