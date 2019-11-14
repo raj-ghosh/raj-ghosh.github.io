@@ -58,12 +58,26 @@ body {
 }
 
 .links:hover {
-    background-color: dodgerblue;
-    color: white;
-    border-radius: 5px;
-    transform: scale(0.8);
-    /* border-top-right-radius: 25px;
-    border-bottom-left-radius: 25px; */
+    color: dodgerblue;
+    /* background-color: dodgerblue;
+    border-radius: 5px; */
+    animation-name: underline;
+    animation-delay: 0ms;
+    animation-duration: 250ms;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+}
+
+@keyframes underline {
+    0%{
+        color: white;
+        background-color: dodgerblue;
+        transform: scaleX(0.5) scaleY(0.9);
+    }100%{
+        background-color: white;
+        border-radius: 10px;
+        transform: scale(1);
+    }
 }
 
 .profile_img {
