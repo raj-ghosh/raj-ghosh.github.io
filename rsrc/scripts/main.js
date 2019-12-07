@@ -1,4 +1,14 @@
 window.onload = function(){
+   this.setTimeout(function(){
+    var loader = this.document.querySelector(".loader-container");
+    var bars = this.document.querySelector(".bar");
+    loader.style.backgroundColor = "transparent";
+        setTimeout(function(){
+            loader.style.display = "none";
+        }, 500);
+   }, 5000);
+}
+
     var hamburger = document.querySelector(".hamburger-menu");
     var b1 = document.querySelector(".one");
     var b2 = document.querySelector(".two");
@@ -11,7 +21,7 @@ window.onload = function(){
     var is_clicked = true;
 
     function hamOpen() {
-        panel.style.left = "-280px";
+        panel.style.left = "-285px";
         b1.style.width = "15px";
         b2.style.width = "15px";
         b2.style.transform = "translateY(8px)"
@@ -71,5 +81,3 @@ window.onload = function(){
     port.onmouseout = function() {
         PhoverOut();
     }
-
-}
