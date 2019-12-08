@@ -1,12 +1,13 @@
 window.onload = function(){
-   this.setTimeout(function(){
-    var loader = this.document.querySelector(".loader-container");
-    var bars = this.document.querySelector(".bar");
+//    this.setTimeout(function(){
+   var loader = this.document.querySelector(".loader-container");
+   var bars = this.document.querySelector(".bar");
     loader.style.backgroundColor = "transparent";
+    bars.style.backgroundColor = "rgba(0,0,0,0)";
         setTimeout(function(){
             loader.style.display = "none";
         }, 500);
-   }, 5000);
+//    }, 5000);
 }
 
     var hamburger = document.querySelector(".hamburger-menu");
