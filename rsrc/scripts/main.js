@@ -1,5 +1,5 @@
 window.onload = function(){
-//    this.setTimeout(function(){
+   this.setTimeout(function(){
    var loader = this.document.querySelector(".loader-container");
    var bars = this.document.querySelector(".bar");
     loader.style.backgroundColor = "transparent";
@@ -7,7 +7,7 @@ window.onload = function(){
         setTimeout(function(){
             loader.style.display = "none";
         }, 500);
-//    }, 5000);
+   }, 3000);
 }
 
     var hamburger = document.querySelector(".hamburger-menu");
