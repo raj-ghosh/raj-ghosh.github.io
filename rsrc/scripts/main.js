@@ -19,6 +19,7 @@ window.onload = function(){
     var pline = document.querySelector(".p-line");
     var port = document.querySelector(".port");
     var cont = document.querySelector(".cont");
+    var p_info = document.querySelector(".p-info");
     var is_clicked = true;
 
     function hamOpen() {
@@ -28,6 +29,8 @@ window.onload = function(){
         b2.style.transform = "translateY(8px)"
         b3.style.width = "30px";
         b3.style.transform = "translateY(-8px)"
+        p_info.style.left = "-285px";
+        p_info.style.width = "1165px";
     }
 
     function hamClose() {
@@ -37,6 +40,8 @@ window.onload = function(){
         b2.style.transform = "translateY(0px)";
         b3.style.width = "30px";
         b3.style.transform = "translateY(0px)";
+        p_info.style.left = "0px";
+        p_info.style.width = "100%";
     }
 
     function ChoverIn() {
@@ -81,4 +86,63 @@ window.onload = function(){
     }
     port.onmouseout = function() {
         PhoverOut();
+    }
+
+    // P-info 
+
+    var addr = document.querySelector(".addr");
+    var eml = document.querySelector(".eml");
+    var mob = document.querySelector(".mob");
+    var s_addr = document.querySelector(".s-addr");
+    var s_eml = document.querySelector(".s-eml");
+    var s_mob = document.querySelector(".s-mob");
+    var pointerI = document.querySelector(".fa-map-marker-alt");
+    var mailI = document.querySelector(".fa-envelope");
+    var callI = document.querySelector(".fa-phone-alt");
+
+    addr.onmouseover = function() {
+        addr.style.backgroundColor = "#2c2c2c";
+        addr.style.boxShadow = "0px 0px 10px 0px #191919";
+        s_addr.style.backgroundColor = "#2c2c2c";
+        s_addr.style.boxShadow = "0px 0px 10px 0px #191919";
+        pointerI.style.transform = "translateX(130px)";
+    }
+    addr.onmouseout = function() {
+        addr.style.backgroundColor = "";
+        addr.style.boxShadow = "";
+        s_addr.style.backgroundColor = "";
+        s_addr.style.boxShadow = "";
+        pointerI.style.transform = "translateX(90px)";
+    }
+
+    eml.onmouseover = function() {
+        eml.style.backgroundColor = "#2c2c2c";
+        eml.style.boxShadow = "0px 0px 10px 0px #191919";
+        s_eml.style.backgroundColor = "#2c2c2c";
+        s_eml.style.boxShadow = "0px 0px 10px 0px #191919";
+        mailI.style.transform = "translateX(130px)";
+    }
+
+    eml.onmouseout = function() {
+        eml.style.backgroundColor = "";
+        eml.style.boxShadow = "";
+        s_eml.style.backgroundColor = "";
+        s_eml.style.boxShadow = "";
+        mailI.style.transform = "translateX(90px)";
+    }
+
+    mob.onmouseover = function() {
+        mob.style.backgroundColor = "#2c2c2c";
+        mob.style.boxShadow = "0px 0px 10px 0px #191919";
+        s_mob.style.backgroundColor = "#2c2c2c";
+        s_mob.style.boxShadow = "0px 0px 10px 0px #191919";
+        callI.style.transform = "translateX(130px)";
+    }
+
+    mob.onmouseout = function() {
+        mob.style.backgroundColor = "";
+        mob.style.boxShadow = "";
+        s_mob.style.backgroundColor = "";
+        s_mob.style.boxShadow = "";
+        callI.style.transform = "translateX(90px)";
     }
