@@ -95,10 +95,27 @@
     <div class="contact-modal">
         <div class="overlay"></div>
         <div class="contact">
-                <button onclick="closeContact()"><i class="fas fa-times"></i></button>
-            <div class="contact-title">
-                <span>Contact</span>
-            </div>
+            <button onclick="closeContact()"><i class="fas fa-times"></i></button>
+            <div class="contact-title"><span>Contact</span></div>
+            <form action="https://formspree.io/xzbzajpv" method="POST" class="form">
+                <label for="_name">
+                    Name<br>
+                    <input class="reset" type="text" name="_name" required autocomplete="off">
+                </label><br>
+                <label for="_replyto">
+                    Email<br>
+                    <input class="reset" type="email" name="_replyto" required autocomplete="off">
+                </label><br>
+                <label for="_phone">
+                    Phone<br>
+                    <input class="reset" type="tel" type="tel" name="_phone" required autocomplete="off">
+                </label><br>
+                <label for="Message">
+                    Message<br>
+                    <textarea class="reset" required name="message" id="message" contextmenu="none"></textarea>
+                </label><br>
+                <input type="submit" value="Send">
+            </form>
         </div>
     </div>
     <!-- Contact section ends here -->

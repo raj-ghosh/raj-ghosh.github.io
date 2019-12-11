@@ -157,7 +157,7 @@ mob.onmouseout = function() {
 // Contact Form Modal
 
 var contactModal = document.querySelector(".contact-modal");
-
+var form = document.querySelector("form");
 function openContact() {
     setTimeout(function(){
         contactModal.style.opacity = "100%";
@@ -168,6 +168,7 @@ function openContact() {
 }
 
 function closeContact() {
+    form.reset();
     contactModal.style.opacity = "0%";
     setTimeout(function(){
         contactModal.style.display = "none";
