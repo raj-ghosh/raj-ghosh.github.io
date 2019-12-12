@@ -50,8 +50,8 @@ body {
 
 .hamburger-menu {
     position: absolute;
-    top: 10px;
-    left: 5px;
+    top: 0px;
+    left: 0px;
     width: 50px;
     height: 50px;
     cursor: pointer;
@@ -62,6 +62,7 @@ body {
     align-items: center;
     z-index: 9;
     transform: scale(.7);
+    transition: all 250ms ease-out;
 }
 
 .b {

@@ -1,3 +1,5 @@
+// Loader
+
 window.onload = function(){
    this.setTimeout(function(){
    var loader = this.document.querySelector(".loader-container");
@@ -10,6 +12,8 @@ window.onload = function(){
    }, 3000);
 }
 
+// predefined variable's
+
 var hamburger = document.querySelector(".hamburger-menu");
 var b1 = document.querySelector(".one");
 var b2 = document.querySelector(".two");
@@ -20,29 +24,39 @@ var pline = document.querySelector(".p-line");
 var port = document.querySelector(".port");
 var cont = document.querySelector(".cont");
 var p_info = document.querySelector(".p-info");
+var mainContainer = document.querySelector( ".main-container" );
 var is_clicked = true;
 
-function hamOpen() {
-    panel.style.left = "-285px";
+// Hamburger
+
+function hamClose() {
+    // panel.style.left = "-285px";
+    panel.style.left = "-350px";
     b1.style.width = "15px";
     b2.style.width = "15px";
     b2.style.transform = "translateY(8px)"
     b3.style.width = "30px";
     b3.style.transform = "translateY(-8px)"
-    p_info.style.left = "-285px";
-    p_info.style.width = "1162px";
+    mainContainer.style.left = "0px";
+    mainContainer.style.margin = "0 auto";
+    hamburger.style.backgroundColor = "#272727";
+    hamburger.style.boxShadow = "0px 0px 10px 0px #191919";
 }
 
-function hamClose() {
+function hamOpen() {
     panel.style.left = "0";
     b1.style.width = "30px";
     b2.style.width = "15px";
     b2.style.transform = "translateY(0px)";
     b3.style.width = "30px";
     b3.style.transform = "translateY(0px)";
-    p_info.style.left = "0px";
-    p_info.style.width = "877px";
+    mainContainer.style.left = "350px";
+    mainContainer.style.margin = "";
+    hamburger.style.backgroundColor = "transparent";
+    hamburger.style.boxShadow = "0px 0px 10px 0px transparent";
 }
+
+// Link hover effects
 
 function ChoverIn() {
     cline.style.transform = "scaleX(4)";
@@ -68,10 +82,10 @@ setTimeout(() => {
 hamburger.onclick = function() {
     if(is_clicked){
         is_clicked = false;
-        hamClose();
+        hamOpen();
     } else {
         is_clicked = true;
-        hamOpen();
+        hamClose();
     }
 }
 
