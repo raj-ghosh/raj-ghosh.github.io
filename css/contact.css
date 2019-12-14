@@ -32,6 +32,7 @@
     background-color: #292929;
     padding: 5px;
     border-radius: 20px;
+    display: block;
 }
 
 .contact button {
@@ -43,14 +44,14 @@
     float: right;
 }
 
-.contact i {
+.contact .fa-times {
     cursor: pointer;
     color: #5b5b5b;
     font-size: 25px;
     transition: all 150ms ease-in-out;
 }
 
-.contact i:hover {
+.contact .fa-times:hover {
     text-shadow: 1px 4px 0px #191919;
 }
 
@@ -60,7 +61,7 @@
 }
 
 .contact-title span {
-    transform: translateX(20px);
+    transform: translateX(25px);
     line-height: 50px;
     color: white;
     font-family: "Montserrat";
@@ -70,7 +71,6 @@
 }
 
 .contact form {
-    /* background-color: blanchedalmond; */
     max-width: 185px;
     margin: 0 auto;
     padding: 20px;
@@ -80,6 +80,14 @@
     flex-direction: column;
 }
 
+.name-i, .phone-i, .email-i {
+    position: absolute;
+    margin: 5px;
+    transform: translateX(-25px);
+    padding: 5px;
+    color: #5b5b5b;
+}
+
 .contact label {
     font-family: "Montserrat";
     color: #c4c4c4;
@@ -87,7 +95,7 @@
 }
 
 .contact label input {
-    padding: 10px;
+    padding: 10px 20px 10px 10px;
     border-radius: 5px;
     box-shadow: inset 0px -3px 0px 0px #191919;
     width: 100%;
@@ -118,7 +126,7 @@
     resize: none;
 }
 
-.contact form input[type="submit"] {
+.contact form .submit-btn {
     background-color: #5eff5a;
     color: #292929;
     border: none;
@@ -132,7 +140,73 @@
     outline: none;
 }
 
-.contact form input[type="submit"]:hover {
+.contact form .submit-btn:active {
     box-shadow: inset 0px 0px 0px 0px #3A9638;
     transform: translateY(2px);
+}
+
+.thankyou {
+    position: absolute;
+    top: 50%;
+    left: 67%;
+    transform: translate(-67%, -50%);
+    width: 400px;
+    height: auto;
+    background-color: #292929;
+    padding: 5px;
+    border-radius: 20px;
+    display: none;
+    height: 578px;
+    transition: all 250ms linear;
+}
+
+.thankyou button {
+    width: 50px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background: none;
+    float: right;
+}
+
+.thankyou .fa-times {
+    cursor: pointer;
+    color: #5b5b5b;
+    font-size: 25px;
+    transition: all 150ms ease-in-out;
+}
+
+.thankyou .fa-times:hover {
+    text-shadow: 1px 4px 0px #191919;
+}
+
+.thankyouContainer {
+    top: 125px;
+    position: relative;
+    clear: both;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.thankyou .fa-check-circle {
+    position: relative;
+    font-size: 120px;
+    color: #5EFF5A;
+}
+
+.thankyou .thankyou-heading {
+    color: #EDEDED;
+    font-size: 30px;
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+
+.thankyou .thankyou-message {
+    color: #EDEDED;
+    font-family: "Montserrat";
+    font-weight: medium;
+    text-align: center;
+    margin: 20px;
 }

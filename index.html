@@ -14,7 +14,7 @@
     <title>Raj Ghosh | Passionate Web Designer & Developer</title>
 </head>
 <body>
-    <div class="loader-container">
+    <!-- <div class="loader-container">
         <div class="loader">
             <div class="bar onee"></div> 
             <div class="bar twoo"></div> 
@@ -22,7 +22,7 @@
             <div class="bar fourr"></div> 
             <div class="bar fivee"></div> 
         </div>
-    </div>
+    </div> -->
     
     <div class="hamburger-menu">
             <div class="b one"></div>
@@ -57,7 +57,11 @@
                 <span>Passionate Web Designer & Developer</span>
             </div>
             <div class="summary">
-                <span>Hello, I’m Raj and I am a computer science student. Who loves to work independently. And always eager to learn new things and try new things.<br><br>I’m a passionate web-designer as well as web developer and still sharpening my skills. I can adapt with current trends and technology, I like playing games & music, I also love adventure and exploration.</span>
+                <span>
+                    Hello, I’m Raj and I am a computer science student. Who loves to work independently. And always eager to learn new things and try new things.<br><br>
+                    I’m a passionate web-designer as well as web developer and still sharpening my skills. I can adapt with current trends and technology, 
+                    I like playing games & music, I also love adventure and exploration.
+                </span>
             </div>
             <div class="author">
                 <span>Made with <i class="fas fa-heart"></i> By Raj Ghosh</span>
@@ -100,26 +104,33 @@
         <div class="contact">
             <button onclick="closeContact()"><i class="fas fa-times"></i></button>
             <div class="contact-title"><span>Contact</span></div>
-            <form action="https://formspree.io/xzbzajpv" method="POST" class="form">
+            <form action="https://formspree.io/xzbzajpv" method="POST" class="form" target="_blank">
                 <label for="_name">
                     Name<br>
-                    <input class="reset" type="text" name="_name" required autocomplete="off">
+                    <input id="name" type="text" name="_name"  autocomplete="off"><i class="" id="name-i"></i>
                 </label><br>
                 <label for="_replyto">
                     Email<br>
-                    <input class="reset" type="email" name="_replyto" required autocomplete="off">
+                    <input id="email" type="email" name="_replyto"  autocomplete="off"><i class="" id="phone-i"></i>
                 </label><br>
                 <label for="_phone">
                     Phone<br>
-                    <input class="reset" type="tel" type="tel" name="_phone" required autocomplete="off">
+                    <input id="phone" type="tel" name="_phone"  autocomplete="off"><i class="" id="email-i"></i>
                 </label><br>
                 <label for="Message">
                     Message<br>
-                    <textarea class="reset" required name="message" id="message" contextmenu="none"></textarea>
+                    <textarea id="message" name="message" id="message"></textarea><i class="" id="message-i"></i>
                 </label><br>
-                <input type="submit" value="Send">
-                <input type="hidden" name="_next" value="https://raj-ghosh.github.io/pages/thankyou.html"/>
+                    <input type="submit" value="Send" class="submit-btn">
             </form>
+        </div>
+        <div class="thankyou">
+            <button onclick="closeContact()"><i class="fas fa-times"></i></button>
+            <div class="thankyouContainer">
+                <i class="fas fa-check-circle"></i>
+                <span class="thankyou-heading">Thank you</span>
+                <span class="thankyou-message">Your submission is recieved and soon I will contact you</span>
+            </div>
         </div>
     </div>
     <!-- Contact section ends here -->

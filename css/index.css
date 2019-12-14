@@ -6,7 +6,7 @@
     bottom: 0;
     padding: 40px 40px 40px 40px;
     /* background-color: rgb(76, 82, 82); */
-    transition: all 250ms ease-in-out;
+    transition: all 250ms linear;
 }
 
 .left {
