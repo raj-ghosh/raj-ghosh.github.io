@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    background-image: url("texture.jpg");
+    background-attachment: fixed;
+    user-select: none;
+    /* height: 5000px; */
+}
+.navbar {
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: white;
+    height: 100px;
+    width: 100vw;
+    border-bottom-style: solid;
+    border-color: dodgerblue;
+    border-width: 5px;
+}
+
+.navbar_container {
+    margin: 0 auto;
+    max-width: 375px;
+    background-color: transparent;
+    height: 100px;
+    display: flexbox;
+}
+
+.nav-items {
+    position: relative;
+    height: 100px;
+    /* background-color: white; */
+    margin: 0 auto;
+    list-style: none;
+}
+
+.nav-items li {
+    margin-top: 10px;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 10px;
+
+}
+
+.links {
+    float: left;
+    position: relative;
+    margin: 10px;
+    padding: 15px;
+    line-height: 0px;
+    text-decoration: none;
+    font-weight: 500;
+    color: dodgerblue;
+    transition: all 150ms ease;
+}
+
+.links:hover {
+    color: dodgerblue;
+    /* background-color: dodgerblue;
+    border-radius: 5px; */
+    animation-name: underline;
+    animation-delay: 0ms;
+    animation-duration: 250ms;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+}
+
+@keyframes underline {
+    0%{
+        color: white;
+        background-color: dodgerblue;
+        transform: scaleX(0.5) scaleY(0.9);
+    }100%{
+        background-color: white;
+        border-radius: 10px;
+        transform: scale(1);
+    }
+}
+
+.profile_img {
+    transition: all 150ms ease;
+}
+
+.profile_img:hover {
+    transform: scale(1);
+}
+
+/* Main-Section Starts from here */
+.main {
+    margin-top: 115px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 90%;
+}
+/* Main Section Ends from here */
